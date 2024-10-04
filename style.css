@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family:  sans-serif;
+    --white: white;
+    --black: rgba(0, 0, 0, 0.701);
+}
+/* id
+
+
+
+
+*/
+#yellow{
+    color: yellow;
+}
+
+.classnav{
+    width: 100%;
+    height: 92px;
+    background-color: rgba(10, 1, 1, 0.756);
+    padding: 20px;
+
+}
+.classnav .navleft{
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
+.navleft .titlenav{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+.titlenav p{
+    padding: 0;
+    margin: 0;
+}
+.titlenav .p{
+    font-size: 15px;
+}
+.classnav .navright{
+    width: 50%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+ .navright .menu{
+    list-style-type: none;
+    overflow: auto;
+   text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+.menu li{
+    float: left;
+    padding: 20px;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+}
+
+.navright nav{
+    padding: 0;
+    margin: 0;
+   
+}
+.content{
+    width: 100%;
+    
+    margin: 0;
+    height: 700px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/video_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding:250px;
+    z-index: 1;
+  
+   
+}
+.content h1{
+    font-size: 45px;
+    color: white;
+    z-index: 2;
+}
+.content p{
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    color: var(--white);
+    z-index: 2;
+}
+.content .boxinfor{
+    display: inline-block;
+    width: 500px ;
+    height:70px ;
+    border: 1px solid var(--black);
+    background-color: var(--black);
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    z-index: 2;
+
+}
+.boxinfor .inforleft{
+    width: 59%;
+    height: 50px ;
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    border-radius: 3px;
+    display: inline-block;
+
+    
+
+}
+.boxinfor .inforright{
+    width: 39%;
+    height: 50px ;
+    background-color: rgba(255, 255, 0, 0.616);
+    border: 1px solid yellow;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 4px;
+    
+}
+.inforright p{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 15px 0;
+    overflow: hidden;
+}
+    
+.inforleft textarea{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 15px 0;
+    overflow: hidden;
+}
+.content .note{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 50%;
+    display: inline-block;
+}
+.content1{
+    margin-top: 20px;
+    width: 60%;
+    height: auto;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.contentinfor{
+    margin-top: 26px;
+    height: auto;
+
+    
+    
+}
+.contentinfor .infor{
+
+padding: 0;
+width: 70%;
+height: 600px;
+
+margin: auto;
+
+}
+.contentinfor .infor .inforleft{
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    float: left;
+    
+}
+.contentinfor .infor .inforright{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: rgba(151, 151, 151, 0.186);
+    border-radius: 4px;
+}
+.contentinfor .infor .inforleft .item{
+    width: 100%;
+    height: 30%;
+    
+}
+.contentinfor .infor .inforleft .item .img{
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    height: auto;
+    float: left;
+  
+}
+.contentinfor .infor .inforleft .item .text{
+    padding: 0;
+    margin: 0;
+    width: 65%;
+    height: auto;
+    float: left;
+margin-left: 15px;
+}
+
+.contentinfor .infor .inforright .p1{
+    margin: 20px 15px;
+    font-size: 30px;
+    
+} 
+.contentinfor .infor .inforright .p2{
+    margin: 20px 15px;
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.52);
+    margin-bottom:30px ;
+} 
+input{
+    margin: 15px;
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+}
+select{
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+}
+option{
+    font-size: 50px;
+}
+input[type=button]{
+    background-color: rgba(22, 192, 22, 0.661);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+footer{
+    margin-top: 50px;
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(122, 122, 122, 0.297);
+    padding: 20px;
+
+}
+footer .classl{
+    text-align: center;
+    width: 50%;
+    padding: 18px;
+    color: #7474746b;
+    float: left;
+}
+footer .classr{
+    text-align: center;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    color: #7474746b;
+    float: left;
+    
+}
+footer .classr .boxleft{
+    width: 40%;
+    float: left;
+    padding: auto;
+    margin: 0;
+    text-align: center;
+}
+footer .classr .boxright{
+    width: 60%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+footer .classr .boxleft .p01{
+display: inline-block;
+
+}
+footer .classr .boxright .p02{
+   margin: auto;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(106, 104, 104, 0.425);
+    margin-left: 0px;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+footer .classr .boxright .p02 i{
+    padding-top: 12px ;
+    font-size: 20px;
+    margin: 5px;
+}
